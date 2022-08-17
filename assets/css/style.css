@@ -5,7 +5,7 @@ body {
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background: gray;
+    background: white;
 }
 
 nav {
@@ -58,13 +58,13 @@ aside {
 }
 
 .categ {
-    background: white;
+    background: rgb(245, 245, 245);
     width: 585px;
     text-align: center;
     padding: 5px;
     margin-top: 25px;
     border-radius: 15px;
-    border-color: #444;
+
 }
 
 .wrapper {
@@ -93,7 +93,7 @@ aside {
 }
 
 .card {
-    background: #444;
+    background: rgb(255, 255, 255);
     height: 440px;
     width: 250px;
 
@@ -110,7 +110,18 @@ aside {
     height: 340px;
 }
 
+.card a {
+    border-left: solid yellow;
+    margin-left: 5px;
+}
+
 .linha {
     height: 25px;
     background: yellow;
+}
+
+hr {
+    color: yellow;
+    background-color: ye;
+    width: 185px;
 }
