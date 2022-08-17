@@ -3,14 +3,21 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: gray;
 }
 
 nav {
-    background: lightblue;
+    background: yellow;
+    color: black;
     height: 85px;
+    width: 100%;
     text-align: center;
     margin: 0;
     padding-top: 0;
+
+
 
 }
 
@@ -21,12 +28,33 @@ h1 {
 
 .home {
     height: 800px;
-    background: lightcoral;
+    background: linear-gradient(gray, black);
+    background-repeat: no-repeat;
 }
+
+.home h1 {
+    margin: 150px;
+}
+
+.home h1,
+h2 {
+
+    text-align: center;
+    font-size: 60px;
+    color: white
+}
+
+/*
+aside {
+    width: 25%;
+    height: 100%;
+    float: right;
+    background: lightgreen;
+}*/
 
 .container-1 {
     background: lightgoldenrodyellow;
-    height: 750px;
+    height: 1000px;
 }
 
 .categ {
@@ -34,7 +62,9 @@ h1 {
     width: 585px;
     text-align: center;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border-color: #444;
 }
 
 .wrapper {
@@ -51,4 +81,36 @@ h1 {
     padding: 20px;
     font-size: 150%;
 
+}
+
+.cards {
+    padding: 30px;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 30px;
+}
+
+.card {
+    background: #444;
+    height: 440px;
+    width: 250px;
+
+    border-radius: 15px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+
+}
+
+.card img {
+    border-radius: 15px;
+    margin-top: 5px;
+    width: 95%;
+    height: 340px;
+}
+
+.linha {
+    height: 25px;
+    background: yellow;
 }
