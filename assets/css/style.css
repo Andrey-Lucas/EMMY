@@ -54,17 +54,19 @@ aside {
 
 .container-1 {
     background: lightgoldenrodyellow;
-    height: 1000px;
+    height: 1100px;
 }
 
 .categ {
-    background: rgb(245, 245, 245);
-    width: 585px;
-    text-align: center;
-    padding: 5px;
-    margin-top: 25px;
+    padding-top: 20px;
+    background: rgb(255, 255, 255);
+    height: 90px;
+    width: 250px;
+    color: gray;
     border-radius: 15px;
-
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+    font-family: 'Poppins', sans-serif;
 }
 
 .wrapper {
